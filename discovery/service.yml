@@ -5,7 +5,7 @@ kind: Service # 생성하려는 리소스의 종류를 나타낸다. 여기서�
 
 metadata:
   # Service의 이름을 설정한다. 이 이름으로 Service를 식별할 수 있다.
-  name: disc001ser 
+  name: discovery-service 
 
 spec: # Service의 사양을 정의한다. 여기에는 서비스 유형, 포트 설정, 셀렉터 등이 포함된다.
   # 서비스 유형을 NodePort로 설정한다. 이는 클러스터 외부에서 내부 파드에 접근할 수 있도록 한다.
