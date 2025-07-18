@@ -35,7 +35,7 @@ spec:
       containers:
       - name: blog-service-container # 컨테이너의 이름을 설정한다.
         # 사용할 컨테이너 이미지를 지정한다. 
-        image: limjerry/blog-service:latest 
+        image: limjerry/be09-blog-service:32
         # 이미지 풀 정책을 'Always'로 설정하여 항상 최신 이미지를 사용하도록 한다.
         imagePullPolicy: Always 
         # 컨테이너가 사용할 포트 정보를 정의한다.
