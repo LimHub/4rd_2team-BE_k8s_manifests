@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: blog-service-container
-        image: limjerry/playblog-blog-service:17
+        image: limjerry/playblog-blog-service:18
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
