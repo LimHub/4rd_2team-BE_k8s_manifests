@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gateway-container
-        image: limjerry/playblog-gateway:${BUILD_NUMBER}  # Jenkins에서 자동으로 태그 변경
+        image: limjerry/playblog-gateway:latest  # Jenkins에서 자동으로 태그 변경
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
