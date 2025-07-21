@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: discovery-container
-        image: limjerry/playblog-discovery-service:latest
+        image: limjerry/playblog-discovery-service:19
         imagePullPolicy: Always
         ports:
         - containerPort: 8761
